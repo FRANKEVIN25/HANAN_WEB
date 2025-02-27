@@ -1,0 +1,61 @@
+<!DOCTYPE html> 
+<html lang="es"> 
+<head>     
+    <meta charset="UTF-8">     
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">     
+    <title>HANAN - Contacto</title>     
+    <link rel="stylesheet" href="styles.css"> 
+</head> 
+<body>     
+    <nav class="navbar">         
+        <div class="logo" onclick="location.href='index.html'">HANAN</div>         
+        <div class="menu-toggle" id="mobile-menu">             
+            <span></span>             
+            <span></span>             
+            <span></span>         
+        </div>         
+        <ul class="nav-links" id="nav-links">             
+            <li><a href="index.html#inicio">Inicio</a></li>             
+            <li><a href="index.html#servicios">Servicios</a></li>             
+            <li><a href="index.html#nosotros">Nosotros</a></li>             
+            <li><a href="contact.html">Contact</a></li>         
+        </ul>         
+        <div class="right-section">             
+            <span class="icon">🌎</span>         
+        </div>     
+    </nav>      
+    
+    <!-- DETALLES DE CONTACTO -->     
+    <section class="contact-section">         
+        <div class="contact-container">             
+            <div class="contact-text">                 
+                <h2 class="contact-heading">¿Listo para transformar tu visión en realidad?</h2>                 
+                <p>Deja que HANAN potencie tu negocio con soluciones tecnológicas a medida.</p>                 
+                <div class="contact-email">                     
+                    <span class="icon">✉️</span>                     
+                    <a href="mailto:frankjaureguibendezu81@gmail.com">frankjaureguibendezu81@gmailcom</a>                 
+                </div>             
+            </div>                          
+            
+            <form class="contact-form" action="https://formspree.io/f/xwpvgedy" method="POST">
+                <input type="text" name="nombre" class="form-control" placeholder="Nombre" required>
+                <input type="text" name="empresa" class="form-control" placeholder="Nombre de empresa">
+                <input type="text" name="cargo" class="form-control" placeholder="Cargo">
+                <input type="tel" name="telefono" class="form-control" placeholder="Teléfono">
+                <input type="email" name="email" class="form-control full-width" placeholder="Correo electrónico" required>
+                <input type="text" name="pais" class="form-control" placeholder="País">
+                <input type="text" name="asunto" class="form-control" placeholder="Asunto">
+                <textarea name="mensaje" class="form-control full-width" placeholder="Mensaje" rows="5" required></textarea>
+                <button type="submit" class="submit-btn">Enviar</button>
+                <p class="privacy-notice">Al enviar tus datos en este formulario, aceptas recibir comunicación de parte de HANAN</p>
+            </form>
+        </div>     
+    </section>      
+    
+    <footer>         
+        <p>&copy; 2025 HANAN - Todos los derechos reservados</p>     
+    </footer>      
+    
+    <script src="scripts.js"></script> 
+</body> 
+</html>
