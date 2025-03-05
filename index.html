@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>HANAN - Soluciones Digitales</title>
+        <link rel="stylesheet" href="styles.css">
+        
+    <!-- Favicons estándar -->
+        
+        <link rel="icon" type="image/png" href="favicon-32x32.png" sizes="32x32">
+    
+    <!-- Para Apple -->
+        <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    </head>
+<body>
+    <nav class="navbar">
+        <div class="logo-container" onclick="location.href='index.html'">
+            <img src="Logo.png" alt="Logo HANAN" class="nav-logo">
+            <div class="logo-separator"></div>
+            <span class="logo-text">HANAN</span>
+        </div>
+        <div class="menu-toggle" id="mobile-menu">
+            <!-- Aquí puedes añadir el icono del menú hamburguesa -->
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <ul class="nav-links" id="nav-links">
+            <li><a href="index.html#inicio">Inicio</a></li>
+            <li><a href="index.html#nosotros">Nosotros</a></li>
+            <li><a href="index.html#servicios">Servicios</a></li>
+        </ul>   
+        <div class="right-section">
+            <button class="contact-button" onclick="location.href='contact.html'">Contacto</button>
+        </div>
+    </nav>
+
+    <!-- SECCIÓN DE VIDEOS CON UNA IMAGEN EN FONDO (Inicio) -->
+    <section class="hero" id="inicio">
+        <div class="video-container">
+            <video autoplay muted loop playsinline>
+                <source src="video.mp4" type="video/mp4">
+            </video>
+            <div class="overlay"></div>
+        </div>
+        <div class="hero-content">
+            <h1>Innovación y Tecnología para el Futuro</h1>
+            <p>Transformamos ideas en soluciones digitales</p>
+        </div>
+    </section>
+
+    <!-- Sección "Quiénes Somos" -->
+    <section class="about-us" id="nosotros">
+        <div class="about-text">
+            <h2>¿Quiénes somos?</h2>
+            <p>Somos una empresa líder en innovación y tecnología, especializada en el desarrollo de soluciones digitales de alto impacto para empresas de cualquier tamaño y sector. Nuestro equipo está conformado por expertos altamente capacitados y apasionados por la transformación digital, comprometidos en potenciar el crecimiento y la competitividad de nuestros clientes a nivel global. Con un enfoque en excelencia, confiabilidad y vanguardia tecnológica, brindamos herramientas estratégicas que impulsan el éxito en la era digital.</p>
+        </div>
+        <div class="about-images">
+            <img src="1.jpg" alt="Equipo de trabajo">
+            <img src="imag2.jpg" alt="Desarrollo tecnológico">
+        </div>
+    </section>
+
+   <!-- SECCIÓN DE SERVICIOS -->
+
+    <section class="services-section" id="servicios">
+        <h2>Servicios</h2>
+        <div class="services-container">
+            <div class = "service-box web-dev">
+                <h3>Desarrollo Web</h3>
+                <p>Diseñamos y desarrollamos aplicaciones web modernas, escalables y personalizadas para optimizar su presencia digital. Utilizamos las últimas tecnologías para garantizar sitios rápidos, seguros y adaptables a cualquier dispositivo, brindando una experiencia excepcional a sus usuarios.</p>
+            </div>
+            <div class = "service-box mobile-dev">
+                <h3>Desarrollo Móvil</h3>
+                <p>Desarrollamos apps nativas y multiplataforma diseñadas para brindar una experiencia fluida e intuitiva en cualquier dispositivo. Conecte con sus clientes en todo momento y lugar, ofreciendo soluciones innovadoras que potencien su negocio y mejoren la interacción con su marca.</p>
+            </div>
+            <div class="service-box security">
+                <h3>SEO y posicionamiento web</h3>
+                <p>Optimizamos su sitio web para mejorar su visibilidad en los motores de búsqueda y atraer más clientes potenciales. Implementamos estrategias de SEO técnico, contenido optimizado y análisis de palabras clave para lograr un posicionamiento orgánico efectivo. Aumente su tráfico, mejore su presencia digital y supere a la competencia con nuestras soluciones personalizadas</p>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- PARA EL PIE DE PAGINA-->
+    <footer>
+        <h1 class="footer-title">HANAN</h1>
+        <div class="footer-container">
+            <p class="footer-subtitle">Encuentranos en</p>
+            <div class="footer-social">
+                <ul class="red-social">
+                    <li><a href="facebook/hanan"><img src="facebook.png" alt="Facebook" width="30"></a></li> </a></li>
+                    <li><a href="instagram/hanan"><img src="instagram.png" alt="Instagram" width="30"></a></li>
+                    <li><a href="tik-tok/hanan"><img src="tik-tok.png" alt="tik-tok" width="30"></a></li>
+                </ul>       
+            </div> 
+            <div class="footer-content">
+                <div class="footer-column">
+                    <h3>SERVICIOS</h3>
+                        <ul>
+                            <li>Tiendas virtuales</li>
+                            <li>Aplicaciones</li>
+                            <li>Branding</li>
+                            <li>Web</li>
+                        </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>NOSOTROS</h3>
+                    <ul>
+                        <li>Nuestra historia</li>
+                        <li>Beneficios</li>
+                        <li>Equipos</li>
+                        <li>Bolsa de trabajo</li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>LEGAL</h3>
+                    <ul>
+                        <li>Terminos y condiciones</li>
+                        <li>Politicas de privacidad</li>
+                        <li>terminos de uso</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+
+    <script src="scripts.js"></script>
+    
+   <!-- PARA WHATSAPP -->    
+<a id="whatsapp-link" class="whatsapp-button" target="_blank">
+    <img src="https://cdn-icons-png.flaticon.com/512/733/733585.png" alt="WhatsApp">
+</a>
+
+<script>
+    // Detectar si el usuario está en un móvil o PC
+    const isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
+    const phoneNumber = "51972629831";
+    const message = encodeURIComponent("Hola quiero más información sobre sus servicios");
+    
+    // Seleccionar el enlace y asignarle la URL correcta
+    const whatsappLink = document.getElementById("whatsapp-link");
+    if (isMobile) {
+        whatsappLink.href = `https://wa.me/${phoneNumber}?text=${message}`; // Enlace para móviles
+    } else {
+        whatsappLink.href = `https://web.whatsapp.com/send?phone=${phoneNumber}&text=${message}`; // Enlace para PC
+    }
+</script>
+    
+</body>
+</html>

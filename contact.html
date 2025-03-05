@@ -1,0 +1,114 @@
+<!DOCTYPE html> 
+<html lang="es"> 
+<head>     
+    <meta charset="UTF-8">     
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">     
+    <title>HANAN - Contacto</title>     
+    <link rel="stylesheet" href="styles.css"> 
+       
+    <!-- Favicons estándar -->
+        <link rel="icon" type="image/png" href="favicon-16x16.png" sizes="16x16">
+        <link rel="icon" type="image/png" href="favicon-32x32.png" sizes="32x32">
+        <link rel="icon" type="image/png" href="favicon-96x96.png" sizes="96x96">
+        
+        <!-- Para Apple -->
+        <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+        
+        <!-- Para Android -->
+        <link rel="manifest" href="site.webmanifest">
+
+</head> 
+<body>     
+    <nav class="navbar">         
+        <div class="logo-container" onclick="location.href='index.html'">
+            <img src="Logo.png" alt="Logo HANAN" class="nav-logo">
+            <div class="logo-separator"></div>
+            <span class="logo-text">HANAN</span>
+        </div>
+        <div class="menu-toggle" id="mobile-menu">
+            <!-- Aquí puedes añadir el icono del menú hamburguesa -->
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>        
+        <ul class="nav-links" id="nav-links">             
+            <li><a href="index.html#inicio">Inicio</a></li>             
+            <li><a href="index.html#servicios">Servicios</a></li>             
+            <li><a href="index.html#nosotros">Nosotros</a></li>                   
+        </ul>         
+        <div class="right-section">                    
+        </div>     
+    </nav>      
+    
+    <!-- DETALLES DE CONTACTO -->     
+    <section class="contact-section">         
+        <div class="contact-container">             
+            <div class="contact-text">                 
+                <h2 class="contact-heading">¿Listo para transformar tu visión en realidad?</h2>                 
+                <p>Deja que HANAN potencie tu negocio con soluciones tecnológicas a medida.</p>                 
+                <div class="contact-email">                     
+                    <span class="icon">✉️</span>                     
+                    <a href="mailto:frankjaureguibendezu81@gmail.com">frankjaureguibendezu81@gmailcom</a>                 
+                </div>             
+            </div>                          
+            
+            <form class="contact-form" action="https://formspree.io/f/xwpvgedy" method="POST">
+                <input type="text" name="nombre" class="form-control" placeholder="Nombre" required>
+                <input type="text" name="empresa" class="form-control" placeholder="Nombre de empresa">
+                <input type="text" name="cargo" class="form-control" placeholder="Cargo">
+                <input type="tel" name="telefono" class="form-control" placeholder="Teléfono">
+                <input type="email" name="email" class="form-control full-width" placeholder="Correo electrónico" required>
+                <input type="text" name="pais" class="form-control" placeholder="País">
+                <input type="text" name="asunto" class="form-control" placeholder="Asunto">
+                <textarea name="mensaje" class="form-control full-width" placeholder="Mensaje" rows="5" required></textarea>
+                <button type="submit" class="submit-btn">Enviar</button>
+                <p class="privacy-notice">Al enviar tus datos en este formulario, aceptas recibir comunicación de parte de HANAN</p>
+            </form>
+        </div>     
+    </section>      
+    
+    <footer>
+        <h1 class="footer-title">HANAN</h1>
+        <div class="footer-container">
+            <p class="footer-subtitle">Encuentranos en</p>
+            <div class="footer-social">
+                <ul class="red-social">
+                    <li><a href="facebook/hanan"><img src="facebook.png" alt="Facebook" width="30"></a></li> </a></li>
+                    <li><a href="instagram/hanan"><img src="instagram.png" alt="Instagram" width="30"></a></li>
+                    <li><a href="tik-tok/hanan"><img src="tik-tok.png" alt="tik-tok" width="30"></a></li>
+                </ul>       
+            </div> 
+            <div class="footer-content">
+                <div class="footer-column">
+                    <h3>SERVICIOS</h3>
+                        <ul>
+                            <li>Tiendas virtuales</li>
+                            <li>Aplicaciones</li>
+                            <li>Branding</li>
+                            <li>Web</li>
+                        </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>NOSOTROS</h3>
+                    <ul>
+                        <li>Nuestra historia</li>
+                        <li>Beneficios</li>
+                        <li>Equipos</li>
+                        <li>Bolsa de trabajo</li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>LEGAL</h3>
+                    <ul>
+                        <li>Terminos y condiciones</li>
+                        <li>Politicas de privacidad</li>
+                        <li>terminos de uso</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+    <script src="scripts.js"></script> 
+</body> 
+</html>
