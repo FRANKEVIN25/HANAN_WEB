@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Empresa de Tecnología - Soluciones Digitales</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <link rel="icon" href="./images/hanan.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="lib/ionicons/css/ionicons.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+    <script src="./js/main.js"></script>
+</head>
+<body>
+    <!-- Header Navigation -->
+    <header class="header">
+        <a href="#" class="logo"><img src="./images/hanan.png" alt="Logo de la empresa"></a>
+        <div class="fas fa-bars"></div>
+        <nav class="navbar">
+            <ul>
+                <li><a href="#home">Inicio</a></li>
+                <li><a href="#about">Nosotros</a></li>
+                <li><a href="#service">Servicios</a></li>
+                 <!-- <li><a href="#portfolio">Portafolio</a></li>-->
+                <li><a href="#team">Equipo</a></li>
+                <li><a href="login.html">Freelancers</a></li>
+                <li><a href="#contact">Contacto</a></li>
+                <li><a href="#faq">Preguntas Frecuentes</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section with Video -->
+    <section id="home" class="home">
+        <div class="video-container">
+            <video autoplay muted loop id="hero-video">
+                <source src="images/video.mp4" type="video/mp4">
+            </video>
+            <div class="video-overlay"></div>
+        </div>
+        <div class="hero-content">
+            <h1>Lleva tu Negocio al Mundo Digital</h1>
+            <h2>con Nuestros Servicios de Tecnología</h2>
+        </div>
+        <div class="wave wave1"></div>
+        <div class="wave wave2"></div>
+        <div class="wave wave3"></div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <h1 class="heading">Acerca de Nosotros</h1>
+        <div class="row">
+            <div class="content">
+                <h3>¡Hacemos que la creatividad trabaje para tu marca!</h3>
+                <p>Somos un equipo de creativos que constantemente genera grandes ideas, <b>todo el tiempo</b>.<br>
+                    Con nuestras habilidades combinadas, obtienes un conjunto capaz de hacer todo lo que tu marca necesita.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <div class="pt-5 pb-5" style="background-color: #f2f2f2;">
+        <div class="container">
+            <div class="row">
+                <div class="section-head col-sm-12" id="service">
+                    <h1>Nuestros Servicios</h1>
+                    <p>Te ayudamos a construir soluciones digitales de alta calidad y productos, así como a entregar una amplia gama de servicios profesionales relacionados. Brindamos servicios de clase mundial a nuestros clientes.</p>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <div class="item">
+                        <span class="icon feature_box_col_one"><i class="fa fa-laptop"></i></span>
+                        <h6>Desarrollo de Aplicaciones Web</h6>
+                        <p>Nuestros Servicios de Desarrollo Web Personalizado incluyen tanto desarrollo Front-End como Back-End. Ya sea mejorando una aplicación existente o arquitectando una aplicación empresarial, nuestros desarrolladores están listos para el desafío.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <div class="item">
+                        <span class="icon feature_box_col_two"><i class="fa fa-android"></i></span>
+                        <h6>Desarrollo de Aplicaciones Móviles</h6>
+                        <p>Tenemos experiencia en crear soluciones de aplicaciones móviles multiplataforma para dispositivos Android e iOS. Usando PhoneGap, Xamarin y React Native, ofrecemos aplicaciones móviles personalizadas que funcionan sin problemas en múltiples plataformas.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <div class="item">
+                        <span class="icon feature_box_col_three"><i class="fa fa-magic"></i></span>
+                        <h6>Marketing Digital</h6>
+                        <p>Los servicios de marketing digital que proporcionamos tienen su propio conjunto de encantos. Al tomar nuestros servicios de marketing digital, nuestros clientes podrán aumentar la visibilidad e interactuar con sus clientes en la plataforma en línea.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap Scripts -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+
+    <!-- Statistics Counter Section -->
+    <section class="counters">
+        <div class="container">
+            <div>
+                <i class="far fa-clock fa-4x"></i>
+                <div class="counter" data-target="1176">0</div>
+                <h3>Horas de Trabajo</h3>
+            </div>
+            <div>
+                <i class="fas fa-gift fa-4x"></i>
+                <div class="counter" data-target="2">0</div>
+                <h3>Proyectos Completados</h3>
+            </div>
+            <div>
+                <i class="fas fa-users fa-4x"></i>
+                <div class="counter" data-target="2">0</div>
+                <h3>Clientes Satisfechos</h3>
+            </div>
+            <div>
+                <i class="fas fa-award fa-4x"></i>
+                <div class="counter" data-target="0">0</div>
+                <h3>Premios Recibidos</h3>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section 
+    <div class="pt-5 pb-5">
+        <div class="container">
+            <div class="row">
+                <div class="section-head-1 col-sm-12" style="text-align: center;">
+                    <h4 style="margin-top: -5rem;" id="portfolio"><span>Nuestros</span> Proyectos</h4>
+                    <p>El objetivo de nuestra Empresa de Tecnología es permitir que una gran cantidad de jóvenes<br>realicen capacitación en habilidades relevantes para la industria que los ayude<br>a asegurar un mejor sustento.</p>
+                </div>
+                
+                <div class="col-lg-4 col-sm-6">
+                    <div class="item">
+                        <span class="icon feature_box_col_four"><i class="fa fa-database"></i></span>
+                        <h6>Plataforma de Comercio Electrónico</h6>
+                        <p>Con pagos integrados, gestión de inventario y seguimiento de pedidos en tiempo real.</p>
+                    </div>
+                </div>
+                
+                <div class="col-lg-4 col-sm-6">
+                    <div class="item">
+                        <span class="icon feature_box_col_five"><i class="fa fa-upload"></i></span>
+                        <h6>Desarrollo de Páginas Web</h6>
+                        <p>Creamos sitios web modernos, responsivos y optimizados para todo tipo de negocios o emprendimientos.</p>
+                    </div>
+                </div>
+                
+                <div class="col-lg-4 col-sm-6">
+                    <div class="item">
+                        <span class="icon feature_box_col_six"><i class="fa fa-camera"></i></span>
+                        <h6>Aplicación Móvil Educativa</h6>
+                        <p>Aplicación móvil para redes sociales con funcionalidades de compartir contenido multimedia, mensajería instantánea y geolocalización.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> -->
+
+    <!-- Call to Action Section -->
+    <div class="communicate">
+        <h3>¿Listo para llevar tu negocio al siguiente nivel?</h3>
+        <p>Contáctanos hoy mismo para una consulta gratuita.</p>
+        <a href="#contact"><button class="btn">Contactar Ahora</button></a>
+    </div>
+
+    <!-- Clients Section -->
+    <div class="clients mt-100">
+        <div class="container">
+            <div class="section-header">
+                <h2>Nuestros Clientes</h2>
+                <p>No solo construimos software, construimos tu negocio.</p>
+            </div>
+            <div class="owl-carousel clients-carousel">
+                <img src="./images/gavi.png" alt="Logo de Cliente">
+                <img src="./images/dye.png" alt="Logo de Cliente">
+        </div>
+    </div>
+
+    <!-- Team Section -->
+    <section class="team" style="margin-top: 7rem;">
+        <h1 class="heading" style="margin-top: -1.5rem;" id="team">Nuestro Equipo</h1>
+        <p></p>
+        <div class="row">
+            <div class="card">
+                <div class="image">
+                    <img src="./images/pexels-andrea-piacquadio-845434.jpg" alt="Miembro del equipo 1">
+                </div>
+                <div class="info">
+                    <h3>Frank Jauregui</h3>
+                    <span>Desarrollador Web</span>
+                    <div class="icons">
+                        <a href="https://www.facebook.com/" class="fab fa-facebook-f"></a>
+                        <a href="https://twitter.com/login" class="fab fa-twitter"></a>
+                        <a href="https://www.instagram.com/" class="fab fa-instagram"></a>
+                        <a href="https://www.linkedin.com/" class="fab fa-linkedin"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="card">
+                <div class="image">
+                    <img src="./images/pexels-vinicius-wiesehofer-1130624.jpg" alt="Miembro del equipo 2">
+                </div>
+                <div class="info">
+                    <h3>Franklin Gavilan</h3>
+                    <span>Desarrolladora Móvil</span>
+                    <div class="icons">
+                        <a href="https://www.facebook.com/" class="fab fa-facebook-f"></a>
+                        <a href="https://twitter.com/login" class="fab fa-twitter"></a>
+                        <a href="https://www.instagram.com/" class="fab fa-instagram"></a>
+                        <a href="https://www.linkedin.com/" class="fab fa-linkedin"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <h1 class="heading">Ponte en Contacto</h1>
+    </section>
+    <div class="contact-in">
+        <div class="contact-map">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4629.28144171896!2d-77.00323422418606!3d-12.000674141045842!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105c5849bd61fb7%3A0xe963320f0b074690!2sCa.%20Las%20Galitas%20647%2C%20San%20Juan%20de%20Lurigancho%2015431!5e1!3m2!1ses-419!2spe!4v1752846742847!5m2!1ses-419!2spe" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <div class="contact-form">
+            <form action="./contactme.php" method="POST">
+                <input type="text" name="name" placeholder="Nombre Completo" class="contact-form-txt" required>
+                <input type="tel" id="phone" name="phone" pattern="[0-9]{10}" required placeholder="Número de Contacto" maxlength="10" class="contact-form-phone">
+                <input type="email" name="email" placeholder="Correo Electrónico" class="contact-form-email" required>
+                <textarea placeholder="Tu Mensaje" name="message" class="contact-form-txtarea" required></textarea>
+                <input type="submit" value="Enviar Mensaje" name="submit" class="contact-form-btn">
+            </form>
+        </div>
+    </div>
+
+    <!-- FAQ Section -->
+    <section class="faq">
+        <h1 class="heading" style="margin-top: -2rem; color: #00bfff;" id="faq">Preguntas Frecuentes</h1>
+        <div class="row">
+            <div class="accordion-container">
+                <div class="accordion">
+                    <div class="accordion-header">
+                        <span>+</span>
+                        <h3>¿Cuánto costará el proyecto?</h3>
+                    </div>
+                    <div class="accordion-body">
+                        <p>Para obtener una mejor idea del costo de lo que quieres construir, llámanos rápidamente. Te haremos algunas preguntas sobre la naturaleza del sitio, qué tipo de interactividad tendrá el sitio, tus necesidades de diseño gráfico, etc. Luego podremos darte una cifra aproximada. Si sigues interesado, iremos a tu lugar de trabajo y haremos una cotización firme.</p>
+                    </div>
+                </div>
+                <div class="accordion">
+                    <div class="accordion-header">
+                        <span>+</span>
+                        <h3>¿Cuánto tiempo toma el diseño?</h3>
+                    </div>
+                    <div class="accordion-body">
+                        <p>El límite de tiempo de cualquier proyecto normalmente está dictado por el cliente. Si tienes algún límite de tiempo en mente, intentaremos cumplirlo. El principal retraso general en la creación de un sitio web es esperar que el cliente nos envíe el contenido de las páginas.</p>
+                    </div>
+                </div>
+                <div class="accordion">
+                    <div class="accordion-header">
+                        <span>+</span>
+                        <h3>¿Cómo me asocio con la Empresa de Tecnología?</h3>
+                    </div>
+                    <div class="accordion-body">
+                        <p>El proceso comienza cuando nos contactas con tus requisitos. Analizamos tus necesidades y te respondemos. Basándose en la discusión adicional, puedes elegir un modelo de contratación que te convenga mejor. Después de eso, comenzamos el proceso de desarrollo.</p>
+                    </div>
+                </div>
+                <div class="accordion">
+                    <div class="accordion-header">
+                        <span>+</span>
+                        <h3>¿Pueden ayudar a que mi sitio actual se vea más profesional?</h3>
+                    </div>
+                    <div class="accordion-body">
+                        <p>Sí. Danos tus requisitos y tenemos la experiencia necesaria para ayudarte a dar una nueva apariencia profesional que realmente sorprenda.</p>
+                    </div>
+                </div>
+                <div class="accordion">
+                    <div class="accordion-header">
+                        <span>+</span>
+                        <h3>¿Cuándo debo pagar?</h3>
+                    </div>
+                    <div class="accordion-body">
+                        <p>Para la mayoría de los proyectos, los pagos iguales se realizan al inicio, a la mitad y al final del proyecto, pero podemos trabajar contigo para establecer un cronograma que satisfaga tus necesidades. Entendemos que esta es una gran inversión y queremos ayudarte a presupuestar el gasto de cualquier manera posible. Aceptamos cheques, PayPal y todas las principales tarjetas de crédito.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <div class="footer">
+        <div class="footer-top">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3 col-md-6 footer-links">
+                        <h4>Acerca de Nosotros</h4>
+                        <ul>
+                            <li><i class="ion-ios-arrow-forward"></i> <a href="#">Inicio</a></li>
+                            <li><i class="ion-ios-arrow-forward"></i> <a href="#about">Sobre nosotros</a></li>
+                            <li><i class="ion-ios-arrow-forward"></i> <a href="#service">Nuestros servicios</a></li>
+                            <li><i class="ion-ios-arrow-forward"></i> <a href="#">Términos y condiciones</a></li>
+                            <li><i class="ion-ios-arrow-forward"></i> <a href="#">Política de privacidad</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 footer-links">
+                        <h4>Enlaces Útiles</h4>
+                        <ul>
+                            <li><i class="ion-ios-arrow-forward"></i> <a href="#portfolio">Portafolio</a></li>
+                            <li><i class="ion-ios-arrow-forward"></i> <a href="#team">Equipo</a></li>
+                            <li><i class="ion-ios-arrow-forward"></i> <a href="login.html">Freelancers</a></li>
+                            <li><i class="ion-ios-arrow-forward"></i> <a href="#contact">Contacto</a></li>
+                            <li><i class="ion-ios-arrow-forward"></i> <a href="#faq">Preguntas Frecuentes</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 footer-contact" style="font-size: 1.5rem;">
+                        <h4>Contáctanos</h4>
+                        <p>
+                            Ca. Las Galitas 647<br>
+                            Lima, Perú<br>
+                            <strong>Teléfono:</strong> +51 918 516 679<br>
+                            <strong>Email:</strong> frankjaureguibendezu81@gmail.com <br>
+                        </p>
+
+                        <div class="social-links">
+                            <a href="https://www.facebook.com/" aria-label="Facebook"><i class="ion-logo-facebook"></i></a>
+                            <a href="https://twitter.com/login?lang=es" aria-label="Twitter"><i class="ion-logo-twitter"></i></a>
+                            <a href="https://www.linkedin.com/" aria-label="LinkedIn"><i class="ion-logo-linkedin"></i></a>
+                            <a href="https://www.instagram.com/" aria-label="Instagram"><i class="ion-logo-instagram"></i></a>
+                            <a href="https://accounts.google.com/servicelogin" aria-label="Google"><i class="ion-logo-googleplus"></i></a>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 footer-newsletter">
+                        <h4>Suscripción</h4>
+                        <p>Con nuestras habilidades combinadas, obtienes un conjunto capaz de hacer todo lo que tu marca necesita. Suscríbete aquí para recibir nuestras últimas actualizaciones.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-6 copyright" style="color: #fff; font-size: 1.3rem;">
+                    Copyright &copy; 2024 Empresa de Tecnología. Todos los Derechos Reservados.
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Back to Top Button -->
+    <a href="#" class="back-to-top"><i class="ion-ios-arrow-up"></i></a>
+
+    <!-- Additional Scripts -->
+    <script src="lib/jquery/jquery.min.js"></script>
+    <script src="lib/jquery/jquery-migrate.min.js"></script>
+    <script src="lib/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/lightbox/js/lightbox.min.js"></script>
+</body
